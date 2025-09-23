@@ -22,7 +22,7 @@ void Game::battle(Enemy &enemy) {
         std::cout << player.getName() << " HP: " << player.getHealth()
                   << " | " << enemy.getName() << " HP: " << enemy.getHealth() << "\n";
 
-        std::cout << "1. attack \n2. use item\n 3. run\n choose: ";
+        std::cout << " 1. attack\n 2. use item\n 3. run\n choose: ";
         int choice;
         std::cin >> choice;
 
