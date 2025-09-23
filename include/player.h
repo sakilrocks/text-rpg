@@ -24,6 +24,7 @@ public:
     int getHealth() const;
     std::string getName() const;
     bool isAlive() const;
+    void showInventory() const;
 
 };
 

@@ -11,7 +11,7 @@ class Enemy{
         int attackPower;
 
     public:
-        Enemy(std::sring enemyName, int hp, int attack);
+        Enemy(std::string enemyName, int hp, int attack);
         void takeDamage(int dmg);
         int attack();
         bool isAlive() const;
