@@ -3,7 +3,7 @@ CXX = g++
 CXXFLAGS = -Wall -std=c++17 -I include
 SRC = $(wildcard src/*.cpp)
 OBJ = $(SRC:.cpp=.o)
-TARGET = text_rpg
+TARGET = rpg-game
 
 all: $(TARGET)
 
