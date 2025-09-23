@@ -2,8 +2,8 @@
 #ifndef GAME_H
 #define GAME_H
 
-#include "Player.h"
-#include "Enemy.h"
+#include "player.h"
+#include "enemy.h"
 
 class Game {
     private:
